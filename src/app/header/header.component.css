@@ -1,0 +1,71 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.navDiv {
+  border: 2px solid white;
+  background-color: black;
+}
+
+.headerContents {
+  justify-content: flex-start;
+  margin-left: 2%;
+}
+
+.logo {
+  left:2000%;
+  top:1%;
+  width: 5%;
+}
+
+.logo-img {
+  height: 100px;
+}
+
+.links {
+  width: 45%;
+}
+
+.link {
+  font-size: 1.5em;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  background-color: white;
+}
+
+.border-right {
+  border-right: none;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.textFiller {
+  width: 50%;
+  color: white;
+  font-size: 2.5em;
+}
+
+.nextProject {
+  text-decoration: none;
+  color: white;
+  text-shadow:3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00;
+}
+
+.nextProject:hover {
+  cursor: pointer;
+}
+
+.active {
+  background-color: darkblue;
+  color: white;
+  border: 0.2px solid grey;
+  box-shadow: -1.5px 1px 1px grey;
+}

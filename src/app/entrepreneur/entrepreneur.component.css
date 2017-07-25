@@ -1,0 +1,94 @@
+.desc {
+text-align: center;
+}
+
+.desc1 {
+  width: 54%;
+  margin-left: 2.5%;
+  border: 2px solid black;
+  padding:1%;
+  border-radius: 10px;
+}
+
+.desc1 h2.bish {
+  border: 2px solid grey;
+  box-shadow: 2.5px 1px 1px grey;
+  color: white;
+  background-color: black;
+  width: 60%;
+  padding: .5%;
+}
+
+
+.desc2 {
+  width: 30%;
+  margin-right: 2.5%;
+}
+
+.desc h2 {
+  width:100%;
+}
+
+.desc1 p {
+  width: 100%;
+  margin: 2%;
+  font-size: 1.2em;
+  font-family: montserrat;
+}
+
+.project {
+  width: 38%;
+  border: 2px solid black;
+  margin: 2%;
+  margin-top: 2%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.project h2 {
+  text-decoration: underline;
+  width: 100%;
+}
+
+.project p {
+  font-size: 1.3em;
+}
+
+.project a {
+  margin: 1.5%;
+  border: 1px solid black;
+  font-size: 1.2em;
+}
+
+.project-img {
+  height: 125px;
+  margin-top: 1.5%;
+}
+
+.tv {
+  height: 175px;
+  margin: 0;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 55%;
+}
+
+.circle-button {
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-top: 1.2%;
+  text-align: center;
+  font-size: 1.3em;
+  padding:50px;
+  color: white;
+  background-color: black;
+  text-shadow:3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00;
+  box-shadow: 2px 1px 1px grey;
+}

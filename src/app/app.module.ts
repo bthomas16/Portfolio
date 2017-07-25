@@ -18,6 +18,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { EntrepreneurComponent } from './entrepreneur/entrepreneur.component';
 import { HeaderComponent } from './header/header.component';
 import { NewProjectComponent } from './projects/new-project/new-project.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { NewProjectComponent } from './projects/new-project/new-project.componen
     AboutMeComponent,
     EntrepreneurComponent,
     HeaderComponent,
-    NewProjectComponent
+    NewProjectComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,5 @@
 <div class="flex projects-wrapper">
-  <p class="stuff"> Stuff I've Built! </p>
+  <a class="stuff" id="down-projects"> Stuff I've Built! </a>
   <div class="flex">
     <div class="flex project-list">
       <app-project-list></app-project-list>
@@ -8,4 +8,9 @@
       <!-- <router-outlet></router-outlet> -->
     </div>
   </div>
+</div>
+<div class="flex new-ideas">
+  <button class="btn btn-success" (click)="onNewRecipe()">
+    New Recipe
+  </button>
 </div>

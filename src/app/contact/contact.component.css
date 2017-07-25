@@ -1,0 +1,54 @@
+h1 {
+  text-align: center;
+}
+.box {
+  width: 100%;
+}
+
+.row1 {
+  width: 30%;
+  margin: 2%;
+}
+
+.row1 input {
+  width: 70%;
+}
+
+.btn {
+  align-self: flex-end;
+  margin-left: 2%;
+  font-size: 1.4em;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 35%;
+}
+
+.right * {
+  margin: 2%;
+}
+
+#subject {
+  width: 30%;
+}
+
+#description {
+  width: 85%;
+}
+
+#notes {
+  width:100%;
+}
+
+#label {
+  width: 100%;
+  text-align: center;
+}
+
+.it {
+  margin-top: 1%;
+}

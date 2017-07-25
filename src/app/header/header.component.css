@@ -16,14 +16,9 @@
   margin-left: 2%;
 }
 
-.logo {
-  left:2000%;
-  top:1%;
-  width: 5%;
-}
-
 .logo-img {
   height: 100px;
+  top:0;
 }
 
 .links {
@@ -64,8 +59,52 @@
 }
 
 .active {
-  background-color: darkblue;
+  background-color: #364b71;
   color: white;
-  border: 0.2px solid grey;
-  box-shadow: -1.5px 1px 1px grey;
+  border: 0.2px solid gold;
+  box-shadow: -1.5px 1px 1px #BF7F00;
+}
+
+.navie {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 0px;
+  background-image: url('../../assets/bg-chards.png');
+  background-size: cover;
+}
+
+
+
+
+
+
+@-webkit-keyframes glowing {
+  0% {color: #BF7F00; -webkit-text-shadow: 0 0 3px #BF7F00; }
+  50% {color: #ffffff; -webkit-text-shadow: 0 0 40px #ffffff; }
+  100% {color: #BF7F00; -webkit-text-shadow: 0 0 3px #BF7F00; }
+}
+
+@-moz-keyframes glowing {
+  0% {color: #BF7F00; -moz-text-shadow: 0 0 3px #BF7F00; }
+  50% {color: #ffffff; -moz-text-shadow: 0 0 40px #ffffff; }
+  100% {color: #BF7F00; -moz-text-shadow: 0 0 3px #BF7F00; }
+}
+
+@-o-keyframes glowing {
+  0% {color: #BF7F00; text-shadow: 0 0 3px #BF7F00; }
+  50% {color: #ffffff; text-shadow: 0 0 40px #ffffff; }
+  100% {color: #BF7F00; text-shadow: 0 0 3px #BF7F00; }
+}
+
+@keyframes glowing {
+  0% {color: #BF7F00; text-shadow: 0 0 3px #BF7F00; }
+  50% {color: #ffffff; text-shadow: 0 0 40px #ffffff; }
+  100% {color: #BF7F00; text-shadow: 0 0 3px #BF7F00; }
+}
+
+.nextProject {
+  -webkit-animation: glowing 3500ms infinite;
+  -moz-animation: glowing 3500ms infinite;
+  -o-animation: glowing 3500ms infinite;
+  animation: glowing 3500ms infinite;
 }

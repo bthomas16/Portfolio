@@ -1,10 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
 
-
 .flex {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
+}
+
+.pix {
+  height: 100vh;
+  background-image: url('./assets/shark-dare.png');
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+}
+
+@media (max-width:1250px) {
+  .pix{
+    height: 100%;
+    background-size: cover;
+    background-image: url('./assets/shark-dare-small.png');
+  }
 }

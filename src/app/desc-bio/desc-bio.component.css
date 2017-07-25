@@ -1,0 +1,363 @@
+
+.all {
+  height:100%;
+  align-items: flex-start;
+}
+
+.thing {
+  width: 60%;
+  border: 2px solid silver;
+  background-color: black;
+  color: white;
+  box-shadow:2px 1px 1px silver;
+  margin: 2%;
+}
+
+.picDiv {
+  width: 25%;
+  margin:5%;
+}
+
+.pic {
+  height: 325px;
+  border-radius: 250px;
+  border: 4px solid white;
+}
+
+.bio {
+  width: 60%;
+  margin: 2%;
+  text-align: center;
+  border: 2px solid silver;
+  padding: 1%;
+  background-color: rgba(215,216,215,.3  );
+}
+
+.bio h3 {
+  margin-bottom: 2%;
+  text-decoration: underline;
+  font-size: 2.8em;
+}
+
+.bio p {
+  font-size: 1.3em;
+  font-family: montserrat;
+  margin: 2.5%;
+}
+
+em {
+  font-size: .7em;
+  width: 100%;
+  margin: 0;
+}
+
+.icons img {
+  height: 50px;
+  margin-top:5%;
+  margin: 2%;
+}
+
+.wrap {
+  width: 35%;
+  align-self: center;
+}
+
+.stack{
+  width: 100%;
+  margin: 1%;
+  text-align: center;
+  background-color:black;
+  border: 2px solid grey;
+}
+
+.stack h2 {
+  width: 100%;
+  border: 2px solid grey;
+  background-color: white;
+  border-radius: 5px;
+  color:black;
+  width: auto;
+  padding:5px;
+  box-shadow: 3px 2px 2px grey;
+}
+
+.stacks {
+  padding-bottom: 10px;
+}
+
+.langs {
+  height: 325px;
+}
+
+.butts {
+  margin: 2%;
+}
+
+.butts a {
+  margin: 1%;
+  width: 48%;
+  font-size: 1em;
+}
+
+.resume {
+  margin-top: 10%;
+  font-size: 1.7em;
+}
+
+.touch {
+  font-size: 1.7em;
+}
+
+app-desc-bio {
+  color:white;
+}
+
+.projects {
+  width: 98%;
+  color: white;
+  padding: 2%;
+}
+
+.projects a {
+  font-size: 1.8em;
+  margin: 2%;
+}
+
+.btn {
+  border: 2px solid white;
+}
+
+.up {
+  align-self: flex-start;
+}
+
+
+@media (max-width:1250px) {
+  .thing {
+    width: 100%;
+  }
+
+  .butts {
+    margin-top: 12.5%;
+  }
+
+  .butts a {
+    font-size: 1.3em;
+    width: auto;
+  }
+
+  .picDiv {
+    width: 15%;
+    margin: 2%;
+  }
+
+  .pic {
+    height: 200px;
+  }
+
+  .bio {
+    width: 75%;
+    align-self: center;
+  }
+
+  .bio p {
+    font-size: 1.4em;
+    margin: 1.7%;
+  }
+
+  .resume {
+    font-size: 1em;
+  }
+
+  .touch {
+    font-size: 1em;
+  }
+  .wrap {
+    width: 100%;
+  }
+
+  .stack {
+    width: 60%;
+  }
+
+  .projects {
+    width: 30%;
+  }
+}
+
+  @media (max-width: 760px) {
+
+    .thing {
+      justify-content: space-around;
+      margin: 2%;
+    }
+
+    .picDiv {
+      width: 20%;
+      align-self: center;
+    }
+
+    .pic {
+      border: 2px solid white;
+    }
+
+    .resume {
+      margin: 20%;
+      font-size: 1.2em;
+    }
+
+    .bio {
+      width: 65%;
+      align-self: center;
+    }
+
+    .icons {
+      margin-top: 5%;
+    }
+    .icons img {
+      height: 33px;
+    }
+
+    .butts a {
+      font-size: 1em;
+      width: auto;
+      margin: 3%;
+    }
+
+    .bio p {
+      font-size: 1em;
+    }
+
+    .touch {
+      margin: 1%;
+      font-size: 1.2em;
+    }
+    p em {
+      font-size: .85em;
+    }
+
+    .stack {
+      width: 68%;
+    }
+    .projects {
+      width: 28%;
+    }
+
+    .projects a {
+      margin: 10%;
+    }
+  }
+  @media (max-width: 720px) {
+    .stack {
+      width: 100%;
+    }
+
+    .projects {
+      width: 100%;
+    }
+    .icons {
+      margin: 2%;
+    }
+
+    .butts {
+      margin:10%;
+    }
+
+    .butts a {
+      font-size: 1.4em;
+      margin: 10%;
+    }
+
+    .bio p {
+      font-size: 1.2em;
+    }
+  }
+
+  @media (max-width: 565px) {
+    .picDiv {
+      width: 20%;
+    }
+
+    .stack h2 {
+      font-size: 1.8em;
+    }
+
+    .pic {
+      height: 175px;
+    }
+
+    .butts {
+      margin: auto;
+    }
+
+    .butts a {
+      font-size: 1em;
+      margin: 1%;
+      margin-bottom: 5%;
+    }
+
+    .langs {
+      height: 250px;
+    }
+
+    .resume {
+      margin: 2%;
+    }
+
+    .projects {
+      width: 100%;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      margin-top: -10%;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .picDiv {
+      width: 100%;
+    }
+    .bio {
+      width: 100%;
+      margin-top: -5%;
+    }
+
+    .bio h3 {
+      font-size: 1.2em;
+    }
+
+    .pic {
+      height: 100px;
+    }
+
+    .bio p {
+      font-size: .8em;
+    }
+
+    .touch {
+      font-size: .7em;
+    }
+
+    .projects {
+      justify-content: center;
+      font-size: .7em;
+      margin-top: -6%;
+    }
+
+    .all {
+      padding: 1.5%;
+    }
+  }
+
+  @media (max-width: 380px) {
+    .all {
+      padding: 2%;
+    }
+
+    .icons img {
+      height: 25px;
+    }
+
+    .resume {
+      font-size: .8em;
+    }
+  }

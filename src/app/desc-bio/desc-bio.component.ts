@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./desc-bio.component.css']
 })
 export class DescBioComponent implements OnInit {
+  loading: boolean = true
 
   constructor() { }
 
   ngOnInit() {
   }
+
+  onLoad() {
+this.loading = false;
+}
+
 
 }

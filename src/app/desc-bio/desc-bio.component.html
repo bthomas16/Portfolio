@@ -1,3 +1,37 @@
-<p>
-  desc-bio works!
-</p>
+<div class="flex all">
+  <div class="flex thing">
+    <div class="flex picDiv">
+      <img *ngIf="loading" src="/assets/loading.gif" alt="loading" />
+      <img [hidden]="loading" (load)="onLoad()" src="../assets/Brent.JPG" class="pic"/>
+      <!-- <img src="../assets/Brent.JPG" alt="" class="pic"> -->
+      <div class="flex icons">
+        <img src="../assets/linkedin-white-bg.png" alt="">
+          <img src="../assets/email.png" alt="">
+        <img src="../assets/gitwhite.png" alt="">
+      </div>
+      <div class="flex butts">
+        <a class="btn btn-primary resume">Résume</a>
+        <a routerLink="/contact"class="btn btn-success touch">Contact</a>
+        <!-- <p class="flex"><em>*I will not share, steal, copy or infringe on any idea brought to me. I am here to help you find the best development path towards your idea's success, and hopefully that involves me.</em></p> -->
+      </div>
+    </div>
+    <div class="flex bio">
+      <h3>I'm Brent &amp; I like to Code!</h3>
+      <p>After <a routerLink="/entrepreneur" class="span">starting my own company</a> and learning to build the website, marketing graphics &amp; campaign on the fly, I knew wanted to take these skills even further.</p>
+      <p>CodeCademy &amp; Udemy undoubtedly helped me to advance while maintaing my regular, B2B sales job. But joining an immersive, web-development program at Galvanize brought me to another level entirely.</p>
+      <p>As a <strong>Full Stack Developer</strong> I can work with today's leading front end &amp; backend technologies. Currently I prefer the MEAN stack to work with. But am also comfortable with sequal databases, Go Language and React.js to name a few.</p>
+    </div>
+  </div>
+  <div class="flex wrap">
+    <div class="flex stack">
+      <!-- <h2>My Preffered Languages</h2> -->
+      <div class="flex stacks">
+        <img class="langs" src="../assets/langs/circle-langs.png" alt="">
+      </div>
+    </div>
+    <div class="flex projects">
+      <a routerLink="/projects" class="btn btn-primary">See My Work</a>
+      <a routerLink="/contact" class="btn btn-warning">Get In Touch</a>
+    </div>
+  </div>
+</div>

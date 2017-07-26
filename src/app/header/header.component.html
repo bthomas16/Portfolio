@@ -1,17 +1,31 @@
-<div class="flex navDiv">
+<div class="flex navie">
   <div class="flex headerContents">
     <div class="logo">
-    <a routerLink="/">
+    <a routerLink="/about-brent">
       <img src="../assets/btc-logo.png" alt="" class="logo-img">
     </a>
     </div>
     <div class="flex links">
+      <a routerLink="/about-brent" routerLinkActive="active" class="link border-right">About Brent</a>
       <a routerLink="/projects" routerLinkActive="active" class="link border-right">Projects</a>
-      <a routerLink="/about-me" routerLinkActive="active" class="link border-right">About Brent</a>
-      <a routerLink="/entrepreneur" routerLinkActive="active" class="link">Entrepreneur</a>
+      <a routerLink="/entrepreneur" routerLinkActive="active" class="link border-right">Entrepreneur</a>
+      <a routerLink="/contact" routerLinkActive="active" class="link">Contact</a>
     </div>
+      <ul class="nav navbar-nav navbar-right toHide">
+        <li class="dropdown" appDropdown>
+          <a class="ish"><img class="ohh" src="../../assets/bh-menu.png"></a>
+
+          <ul class="dropdown-menu">
+            <li><a style="cursor: pointer;">Save Data</a></li>
+            <li><a style="cursor: pointer;">Fetch Data</a></li>
+          </ul>
+        </li>
+      </ul>
     <div class="flex textFiller">
-      <a class="nextProject">WHAT'S OUR NEXT PROJECT?</a>
+      <a routerLink="/contact" class="nextProject">
+        <p>WHAT'S OUR</p>
+        <p>NEXT PROJECT?</p>
+        </a>
     </div>
   </div>
 </div>

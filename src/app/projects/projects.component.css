@@ -3,3 +3,16 @@
   color:black;
   text-decoration: underline;
 }
+
+.new-ideas {
+  margin-top: 1.5%;
+}
+
+div.loading{
+    height: 100px;
+    background-color: red;
+    display: none;
+}
+router-outlet + div.loading{
+    display: block;
+}

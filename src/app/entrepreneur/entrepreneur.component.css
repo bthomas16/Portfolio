@@ -1,0 +1,215 @@
+.desc {
+text-align: center;
+
+}
+
+.desc1 {
+  width: 54%;
+  margin-left: 2.5%;
+  border: 2px solid silver;
+  padding:1%;
+  border-radius: 10px;
+  background-image: url('../../assets/black-vinyl.jpg');
+}
+
+.style-wrap {
+  border: 2px solid white;
+  background-color: rgba(68, 149, 155,.8);
+  border-radius: 15px;
+  color: white;
+}
+
+.style-wrap p.bish {
+  color: white;
+  width: 100%;
+  text-shadow:2px 2px 4px black, -2px -2px 4px black;
+  font-family: montserrat;
+  font-size: 2.2em;
+}
+
+
+
+
+.desc2 {
+  width: 30%;
+  margin-right: 2.5%;
+}
+
+.desc1 p {
+  width: 100%;
+  margin: 2%;
+  font-size: 1.2em;
+  font-family: montserrat;
+}
+
+.project-wrapper {
+  border: 2px solid silver;
+  width: 40%;
+  margin: 2%;
+  border-radius: 15px;
+  background-color: black;
+  padding: .01%;
+}
+
+.project {
+  width: 96.5%;
+  border: 2px solid white;
+  box-shadow: 4px 2.5px 20px silver;
+  margin: 1%;
+  text-align: center;
+  border-radius: 15px;
+background-color: rgba(13, 46, 89,.8);
+
+}
+
+.project h2 {
+  text-decoration: underline;
+  width: 100%;
+}
+
+.project p {
+  font-size: 1.3em;
+}
+
+.project a {
+  margin: 1.5%;
+  border: 1px solid black;
+  font-size: 1.2em;
+}
+
+.project-img {
+  height: 125px;
+  margin-top: 1.5%;
+  border: 1px solid black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 4px 2px 20px black;
+}
+
+.tv {
+  height: 175px;
+  margin: 0;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 55%;
+  border: 2px solid black;
+  box-shadow: 4px 2px 20px black;
+  background-color: white;
+  border-radius: 15px;
+  margin:1%;
+  padding: .6%;
+}
+
+
+/*.circle-button {
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-top: 1.2%;
+  text-align: center;
+  font-size: 1.3em;
+  padding:50px;
+  color: white;
+  background-color: black;
+  text-shadow:3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00;
+  box-shadow: 2px 1px 1px grey;
+}*/
+
+.style-wrap .text {
+  font-size: 1.8em;
+  color: white;
+  font-family: montserrat;
+  border: 2px solid silver;
+  background-color: rgba(13, 46, 89,.8);
+  border-radius:15px;
+  padding: 1%;
+  box-shadow: 4px 2px 20px black;
+}
+
+.butt {
+  box-shadow: 4px 2px 20px black;
+  margin-top: 1%;
+  font-size: 5em;
+}
+
+.bg {
+  height: 100%;
+}
+
+.desc3 {
+  display: none;
+}
+
+@media (max-width: 1020px) {
+  .project-wrapper {
+    width: 90%;
+  }
+  .butt {
+    width: 35%;
+}
+
+}
+
+@media (max-width: 720px) {
+  .butt {
+    width: 50%;
+  }
+
+  .desc2 {
+    width: 100%;
+    display: none;
+  }
+
+  .desc3 {
+    display: block;
+  }
+
+  .desc3 .tv {
+    height: 75px;
+    margin-top:10%;
+  }
+
+  .desc1 {
+    width: 85%;
+    margin: auto;
+  }
+
+  .style-wrap {
+    width: 90%;
+  }
+
+  .style-wrap .text {
+    font-size: 1.4em;
+  }
+
+}
+
+@media (max-width: 465px) {
+.left {
+  width: 100%;
+}
+
+.right {
+  width: 92%;
+}
+
+.butt {
+  width: 80%;
+}
+
+.project-wrapper {
+  padding: 1%;
+}
+
+.project {
+  padding: 2%;
+}
+
+}

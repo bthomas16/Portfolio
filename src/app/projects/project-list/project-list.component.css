@@ -1,0 +1,125 @@
+.projects-wrapper {
+  border: 2px solid silver;
+  box-shadow: 3px 2px 20px silver;
+  background-image: url('../../../assets/black-vinyl.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  padding: 2%;
+  width: 86%;
+}
+
+.projects-wrapper .p {
+  width: 90%;
+  text-align: center;
+}
+
+.wrappie {
+  border: 2px solid white;
+  background-color: rgba(13, 46, 89,.8);
+  border-radius: 15px;
+  /*padding: 1%;*/
+  width: 94%;
+}
+
+.project {
+  border: 2px solid black;
+  background-color: rgba(68, 149, 155, .9);
+  text-align: center;
+  width: 22%;
+  margin: 2%;
+  padding:.2%;
+  border-radius: 15px;
+  color: white;
+}
+
+.h1 {
+  text-shadow:1px 1px 4px black, -1px -1px 4px black;
+}
+
+.info p {
+  width: 100%;
+  margin: 0;
+}
+
+.img {
+  width: 100%;
+}
+
+.img img {
+  height: 75px;
+  margin-top: 5px;
+}
+
+.h1 {
+  font-size: 2em;
+  margin: .5%;
+}
+
+
+.butts a {
+  margin: 2%;
+  width: 90%;
+  border: 2px solid black;
+}
+
+.btn-default {
+  background-color: black;
+  color: white;
+}
+
+.bg {
+  height: 100%;
+}
+
+.p {
+  width: 85%;
+}
+
+@media (max-width:1250px) {
+
+  .projects-wrapper {
+    width: 90%;
+  }
+  .bg {
+    height: 86vh;
+  }
+}
+
+@media (max-width:770px) {
+  .bg {
+    height: auto;
+    padding: 3%;
+  }
+  .project {
+    width: 46%;
+  }
+}
+
+
+@media (max-width:635px) {
+  .bg {
+    height: auto;
+  }
+  .projects-wrapper {
+    width: 95%;
+    background-size: contain;
+  }
+  .project {
+    width: 46%;
+  }
+
+  .p {
+    width: 80%;
+  }
+}
+
+@media (max-width:385px) {
+  .project {
+    width: 100%;
+  }
+
+  .bg {
+    height: 100%;
+  }
+}

@@ -1,17 +1,92 @@
-h1 {
+.title {
   text-align: center;
+  border: 2px solid silver;
+  box-shadow: 3px 2px 20px silver;
+  background-color: black;
+  margin: 1%;
+  padding: .2%;
+  padding-top: .01%;
+  padding-bottom: .01%;
+  color: white;
+  border-radius: 15px;
+  width: 40%;
+  background-image: url('../../assets/black-vinyl.jpg');
+  background-position: center;
+}
+.title-wrapper {
+  border: 2px solid white;
+  background-color: rgba(16,55,100,.8);
+  border-radius: 15px;
+  width: 80%;
+  text-shadow:2px 2px 4px black, -2px -2px 4px black;
+  margin: 2%;
+}
+
+.h1 {
+  font-size: 2.5em;
+
 }
 .box {
-  width: 100%;
+  width: 65%;
+  border: 2px solid silver;
+  box-shadow: 3px 2px 20px silver;
+  background-color: black;
+  padding: 1%;
+  border-radius: 15px;
+}
+
+.omg {
+  border: 2px solid white;
+  background-color: rgba(68, 149, 155,.7);
+  border-radius: 15px;
+}
+
+.icons img {
+  height: 45px;
+  margin: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+input {
+  border-radius: 15px;
+}
+
+textarea {
+  border-radius: 15px;
 }
 
 .row1 {
-  width: 30%;
+  width: 52%;
   margin: 2%;
+  border: 2px solid white;
+  background-color: rgba(16,55,100,.7);
+  padding: 1%;
+  border-radius: 15px;
+}
+
+.checkbox-inline {
+  text-shadow:2px 2px 4px #BF7F00, -2px -2px 4px #BF7F00;
+  color: white;
+}
+
+.row1.a {
+  width: 40%;
+}
+
+.row1.a input {
+  margin: 1%;
+}
+
+.label {
+  font-size: 1.5em;
+  color: white;
+  text-shadow:2px 2px 4px black, -2px -2px 4px black;
 }
 
 .row1 input {
   width: 70%;
+  color: black;
 }
 
 .btn {
@@ -20,12 +95,19 @@ h1 {
   font-size: 1.4em;
 }
 
+.all {
+  padding: 1%;
+}
+
 .left {
   width: 50%;
+  border: 2px solid silver;
+  background-color: rgba(16,55,100,.7);
+  border-radius: 15px;
 }
 
 .right {
-  width: 35%;
+  width: 30%;
 }
 
 .right * {
@@ -33,7 +115,7 @@ h1 {
 }
 
 #subject {
-  width: 30%;
+  width: 84%;
 }
 
 #description {
@@ -44,11 +126,239 @@ h1 {
   width:100%;
 }
 
-#label {
+
+.contact-explain {
+  width: 30%;
+  border: 2px solid silver;
+  box-shadow: 3px 2px 20px silver;
+  background-color: black;
+  border-radius: 15px;
+  margin: 1%;
+  padding: 1%;
+}
+
+.types {
+  width: 65%;
+  color: white;
+  border: 2px solid white;
+  background-color: rgba(68, 149, 155,.7);
+  border-radius: 15px;
+  margin: 1.5%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.types h3 {
+  font-size: 2.2em;
   width: 100%;
+  align-self: center;
+  text-shadow:2px 2px 4px black, -2px -2px 4px black;
+}
+
+.list-types {
+  text-align: center;
+  border: 2px solid white;
+  background-color: rgba(68, 149, 155,.7);
+  border-radius: 15px;
+}
+.type {
+  margin: 2%;
+  color: white;
+  font-size: 1.1em;
+  border: .5px solid silver;
+  background-color: rgba(16,55,100,.7);
+  padding:.5%;
+  border-radius: 15px;
+}
+
+.type span {
+  font-size: 1.2em;
+  text-shadow:2px 2px 4px #BF7F00, -2px -2px 4px #BF7F00;
+  color: white;
+}
+
+.left label {
+  width: 100%;
+}
+
+.subject {
+  width: 20%;
+  font-size: 1.4em;
+  color: white;
+  text-align: center;
+  text-shadow:2px 2px 4px black, -2px -2px 4px black;
+}
+
+.left * {
+  margin: 1%;
+  text-align: center;
+
+}
+
+.left input {
+  border: 2px solid black;
+}
+.left textarea {
+  border: 2px solid black;
+}
+
+.right {
+  margin-left: 5%;
+}
+
+#notes {
+  height: 75px;
+}
+
+.top {
+  width: 100%;
+  border: 2px solid white;
+  padding: 1%;
+  color: white;
+  border-radius: 15px;
+  background-color: rgba(16,55,100,.7);
+}
+
+.links {
+  font-size: 1.4em;
+  color: white;
+  padding: 1%;
+  border: 0;
+  text-shadow:2px 2px 4px black, -2px -2px 4px black;
+}
+
+.right * {
   text-align: center;
 }
 
-.it {
-  margin-top: 1%;
+.right textarea {
+  border: 2px solid black;
+}
+
+.right button {
+  border: 2px solid black;
+}
+.contact {
+  width: 100%;
+}
+
+.bg {
+  height: 100%;
+  margin-top: -1.5%;
+}
+
+form input {
+  text-align: center;
+}
+
+.send {
+  width: 50%;
+}
+
+
+@media (max-width:1275px) {
+  /*.bg {
+    height: 100vh;
+  }*/
+
+  .title {
+    width: 90%;
+    font-size: 1em;
+  }
+
+  .box{
+    width: 90%;
+  }
+
+  .contact-explain {
+    width: 90%;
+  }
+
+  .list-types {
+    width: 100%;
+  }
+
+  .type {
+    width: 100%;
+    font-size: 1.3em;
+  }
+
+  .name {
+    font-size: 1.5em;
+
+  }
+}
+
+@media (max-width: 800px){
+  .contact {
+    font-size: 1.2em;
+  }
+
+  .name {
+    font-size: 1.2em;
+    width: 100%;
+  }
+
+  .title {
+    width: 90%;
+    font-size: .8em;
+  }
+
+}
+
+@media (max-width: 640px){
+  .contact {
+    font-size: 1em;
+  }
+
+  .right {
+    margin: auto;
+  }
+
+  .row1.a {
+    width: 90%;
+  }
+
+  .name {
+    font-size: 1.4em;
+  }
+
+  .row1 {
+     width: 90%;
+   }
+
+   .contact {
+     font-size: 1.4em;
+   }
+
+   .type {
+     padding: 1.2%;
+   }
+
+}
+
+@media (max-width: 555px){
+
+  .row1  {
+    width:100%;
+  }
+
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+  .contact {
+    font-size: 1.3em;
+  }
+
+  .name {
+    font-size: 1.3em;
+  }
+
+  .notes {
+    font-size: 1.3em;
+  }
+
 }

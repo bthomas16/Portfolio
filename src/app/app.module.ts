@@ -19,6 +19,7 @@ import { EntrepreneurComponent } from './entrepreneur/entrepreneur.component';
 import { HeaderComponent } from './header/header.component';
 import { NewProjectComponent } from './projects/new-project/new-project.component';
 import { ContactComponent } from './contact/contact.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { ContactComponent } from './contact/contact.component';
     BrowserModule,
     HttpModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
